@@ -2,7 +2,7 @@ const http = require('http');
 const https = require('https');
 
 const CAL_API_KEY = 'cal_live_159f571f594679e4faaf837f2fdce20e';
-const EVENT_TYPE_ID = '5612039';
+const EVENT_TYPE_ID = '6015757';
 
 const server = http.createServer(async (req, res) => {
   if (req.method !== 'POST') {
